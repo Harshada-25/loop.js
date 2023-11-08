@@ -454,14 +454,27 @@ const prompt=require("prompt-sync")();
 
 
 
-var a=121;
-var b=a/100;
-var c=a%100;
-var d=b/10;
-var e=d%10;
-if(a==e){
-    console.log(e,"palindron number")
-}
-else{
-    console.log("not palindron number")
-}
+// var a=121;
+// var b=a/100;
+// var c=a%100;
+// var d=b/10;
+// var e=d%10;
+// if(a==e){
+//     console.log(e,"palindron number")
+// }
+// else{
+//     console.log("not palindron number")
+// }
+
+
+
+// let  bread1=prompt("which bread would you like to have:-");
+// let  bread2=prompt("which are your favourit  veggies:-");
+// let  bread3=prompt("which sauce would you like to have:-");
+// function makesandwich(bread, veggies, sauce) {
+//     let sandwich = bread+"bread" + veggies +" "+ sauce+" sandwich is ready";
+//     return sandwich;
+//     let vegsandwich = makesandwich(bread1, veggies1, sauce1);
+    
+// }
+// makesandwich();

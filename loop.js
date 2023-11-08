@@ -473,3 +473,31 @@
 
 
 
+// var  temp="this is  string";
+// var count= (temp.match(/is/g)||{}).
+// length;
+// console.log("YES");
+// var temp="Hello world";
+// var count=(temp.match(/is/g)||{}).
+// length;
+// console.log("NO");
+
+
+
+
+
+
+
+
+
+
+let  bread1=prompt("which bread would you like to have:-");
+let  bread2=prompt("which are your favourit  veggies:-");
+let  bread3=prompt("which sauce would you like to have:-");
+function makesandwich(bread, veggies, sauce) {
+    let sandwich = bread+"bread" + veggies +" "+ sauce+" sandwich is ready";
+    return sandwich;
+    let vegsandwich = makesandwich(bread1, veggies1, sauce1);
+    
+}
+makesandwich();
